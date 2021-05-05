@@ -1,0 +1,30 @@
+#parent-absolute {
+	width: 300px;
+	height: 300px;
+	background-color: rebeccapurple;
+	position: relative;
+}
+/* Elementul copil cu position absolute se va raporta la pozitia elementului parinte */
+#child-absolute {
+	width: 120px;
+	height: 120px;
+	background-color: darkred;
+	color: yellow;
+	position: absolute;
+}
+#parent-relative {
+	width: 300px;
+	height: 300px;
+	background-color: royalblue;
+	position: relative;
+}
+/* Elementul copil cu position relative se va raporta la propria sa pozitie */
+#child-relative {
+	width: 120px;
+	height: 120px;
+	background-color: darkred;
+	color: yellow;
+	position: relative;
+	top: 105px;
+	left: 105px;
+}
